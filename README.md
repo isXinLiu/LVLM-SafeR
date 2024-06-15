@@ -2,7 +2,7 @@
 
 [![project](https://img.shields.io/badge/Project-Page-blue)](https://isxinliu.github.io/Project/LVLM-SafeR/)
 
-[Xin Liu*](https://isxinliu.github.io/), Zhichen Dong*, Zhanhui Zhou, [Yunshi Lan†](https://scholar.google.com/citations?user=Q0F92XIAAAAJ&hl=en), [Jing Shao](https://scholar.google.com/citations?user=VU5ObUwAAAAJ&hl=en), [Chao Yang†](https://scholar.google.com/citations?user=5KRbHPMAAAAJ&hl=zh-CN), [Yu Qiao](https://scholar.google.com/citations?user=gFtI-8QAAAAJ&hl=en)
+[Xin Liu*](https://isxinliu.github.io/), [Zhichen Dong*](https://github.com/niconi19), Zhanhui Zhou, [Yichen Zhu](https://scholar.google.com/citations?user=eyKyrbsAAAAJ&hl=en), [Yunshi Lan†](https://scholar.google.com/citations?user=Q0F92XIAAAAJ&hl=en), [Jing Shao](https://scholar.google.com/citations?user=VU5ObUwAAAAJ&hl=en), [Chao Yang†](https://scholar.google.com/citations?user=5KRbHPMAAAAJ&hl=zh-CN), [Yu Qiao](https://scholar.google.com/citations?user=gFtI-8QAAAAJ&hl=en)
 
 (*Contribute equally, †Corresponding author)
 
@@ -33,6 +33,13 @@ The prompts in LVLM-SafeR can be found in this repository:
 - `./data/3-same_image_different_region.json`
 - `./data/4-same_image_same_region.json`
 
+Before download images, you need to create an empty dir for them:
+``` bash
+cd data
+mkdir imgs
+cd ../
+```
+
 The images in LVLM-SafeR need to be downloaded through two approaches:
 - Download Images Selected from [COCO](https://cocodataset.org/) and [Hateful Memes](https://arxiv.org/abs/2005.04790v3)
 - Download Images Based on their URLs
@@ -48,6 +55,7 @@ Images can be downloaded from [Google Drive](https://drive.google.com/file/d/1nr
     ```
 1. Step 2: check the failures (After step 2, `check.sh` will be generated)
     ``` bash
+    # pip install pillow
     python check.py
     ```
 1. Step 3: re-download the images that fail in Step 1
