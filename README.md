@@ -1,6 +1,8 @@
 # *Don’t Always Say No to Me:* Benchmarking Safety-Related Refusal in Large VLM
 
 [![project](https://img.shields.io/badge/Project-Page-blue)](https://isxinliu.github.io/Project/LVLM-SafeR/)
+[![dataset](https://img.shields.io/badge/🤗-Dataset-yellow)](https://huggingface.co/datasets/isXinLiu/LVLM-SafeR)
+<!-- https://img.shields.io/badge/{左半部分标签}-{右半部分标签}-{右半部分颜色} -->
 
 [Xin Liu*](https://isxinliu.github.io/), [Zhichen Dong*](https://github.com/niconi19), Zhanhui Zhou, [Yichen Zhu](https://scholar.google.com/citations?user=eyKyrbsAAAAJ&hl=en), [Yunshi Lan†](https://scholar.google.com/citations?user=Q0F92XIAAAAJ&hl=en), [Jing Shao](https://scholar.google.com/citations?user=VU5ObUwAAAAJ&hl=en), [Chao Yang†](https://scholar.google.com/citations?user=5KRbHPMAAAAJ&hl=zh-CN), [Yu Qiao](https://scholar.google.com/citations?user=gFtI-8QAAAAJ&hl=en)
 
