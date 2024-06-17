@@ -184,6 +184,8 @@ Format of `./data/4-same_image_same_region.json`:
   <img src="assets/exp_eval_prompt.svg" class="floatpic" width="100%">
 </div>
 
+The complete prompt can be found in `eval_prompt.txt`.
+
 
 ## 🔒 License
 The dataset is intended and licensed for research use only. Some images in LVLM-SafeR are from [COCO](https://cocodataset.org/) 2015 test set and [Hateful Memes](https://arxiv.org/abs/2005.04790v3). We follow their licenses for corresponding images respectively. The remaining images are from the Web and we only provide the URLs to them instead of directly offering whole image contents. These images are under their licenses. The prompts in LVLM-SafeR are under the CC BY NC 4.0 (allowing only non-commercial use).
